@@ -9,8 +9,9 @@ After 7 hours of training on [Google Colab](https://colab.research.google.com/dr
 ## Evaluation
 For such a big data set, I managed to use different size of subsets and I saw that the greater the data set gets, the more images ImageGenerator generates. As shown below with 10 classes of paintings, the loss value and accuracy changed over time:
 <br>
-[!Train and validation accuracy plot]()
-[!Train and validation accuracy plot]()
+[!Train and validation accuracy plot](https://github.com/FarzamTP/Art-Masterpiece-Classification/blob/master/plots/acc/15_classes_100_epochs_0.8512_0.6205.png)
+<br>
+[!Train and validation loss plot](https://github.com/FarzamTP/Art-Masterpiece-Classification/blob/master/plots/loss/15_classes_100_epochs_0.4186_1.4773.png)
 
 ## Conclusion
 After training the model and evaluating over test set I tried lowering and increasing learning rate and also using RMSProp and Adam optimizer, but the result with given hyper parameters reached the best score and also performed in shorter time.
