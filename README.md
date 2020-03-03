@@ -1,4 +1,4 @@
-# Art Masterpieces classification
+# Art Masterpieces Classification
 ## Abstract
 Working with big data sets like [art masterpieces](https://www.kaggle.com/ikarus777/best-artworks-of-all-time), that data are stored in specific directories make it a little hard. But for each class (Artist) there wasn’t balanced number of images. So I came with the idea of image generation to generate more images for training and also testing. The idea can be implemented with Tensorflow Image Generator library.
 
